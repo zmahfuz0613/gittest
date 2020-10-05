@@ -4,19 +4,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello world");
-        System.out.println("Chandrika");
-        System.out.println("This is a github homework");
+//Create a while loop to find the numbers between 35-75
 
-
-        int x = 10;
-
-        while (x < 20) {
-            System.out.print("value of x : " + x);
-            x++;
-            System.out.print("\n");
+        int i = 15;
+        while(i < 25) {
+            System.out.println("value of run :" + i);
+            i++;
 
         }
+
     }
 }
 
