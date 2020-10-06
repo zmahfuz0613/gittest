@@ -6,11 +6,11 @@ public class Main {
 
 //Create a while loop to find the numbers between 15-25
 
-//        int i = 15;
-//        while(i < 25) {
-//            System.out.println("value of run :" + i);
-//            i++;
-
+        int x = 15;
+        while(x < 25) {
+            System.out.println("value of run :" + x);
+            x++;
+        }
         //for loops
 
         for(int i = 155; i < 255; i++) {
