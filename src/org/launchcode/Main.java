@@ -1,5 +1,7 @@
 package org.launchcode;
 
+import java.text.MessageFormat;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -25,6 +27,13 @@ public class Main {
             System.out.println("My number will print out.");
         }
 
+        String name = "Mary";
+
+        if ( name == "Mary") {
+            System.out.println("This is not the person");
+        }
+
+
         // if-else statement example
 
         if (a < 50) {
@@ -42,6 +51,30 @@ public class Main {
         }else {
             System.out.println("This is just an example.");
         }
+
+        // Switch statement
+        int highestNumber = 95;
+
+        switch(highestNumber) {
+            case 100 :
+                System.out.println("Excellent!");
+                break;
+            case 85 :
+            case 80 :
+                System.out.println("Well done");
+                break;
+            case 70 :
+                System.out.println("You passed");
+            case 50 :
+                System.out.println("Better try again");
+                break;
+            default :
+                System.out.println("Invalid grade");
+        }
+        System.out.println("Your grade is " + highestNumber);
     }
-}
+
+
+    }
+
 
